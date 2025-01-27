@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA_Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>My Portfolio </title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="mediaqueries.css">
+ </head>
+ <body>
+  <nav id="desktop-nav">
+      <div class="logo">Reza Kochesfehani</div>
+      <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  </nav>
+  <nav id="hamburger-nav">
+       <div class="logo"> Reza Kochesfehani</div>
+       <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>  
+        </div>
+     </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+            <img src="./assets/Screenshot 2025-01-19 141808.png" alt="Reza Nejad profile picture">
+      </div>
+      <div class="section__text">
+            <p class="section__text__p1">Hello,I'm ' </p>
+            <h1 class="title">Reza Kochesfehani</h1>
+            <p class="section__text__p2">ICT System Engineer</p> 
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2"
+                onclick="window.open('./assets/Reza_Nejad_ CV update.docx')"
+                >
+                Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+                </button>
+            </div>
+            <div id="socials.container">
+                <img src="./assets/Linkedin_icon.jpg" alt="My LinkedIn profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/richard-nejad-0263492a'">
+                <img src="./assets/github_icon.png" alt="My LinkedIn profile"
+                class="icon" onclick="location.href='https://reza-nejad1975.github.io/portfolio/'">
+                <img src="./assets/Mic_icon_certificate.png" alt="My LinkedIn profile"
+                class="icon" onclick="location.href='https://learn.microsoft.com/en-us/users/rezanejad-5436/transcript/7xoo1uzwq5o4k69'">
+            </div>
+      </div>
+   </section>
+<!-- About Section
+ 
+
+
+
+-->
+  <section id="about">
+    <p class="section__text__p1"> Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+         src="./assets/reza-pic1.jpg"
+         alt="Profile picture"
+         class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img 
+              src="./assets/experience.png" 
+              alt="Experience icon" 
+              class="icon"
+            />
+            <h3>Experience</h3>
+            <p>16+ years <br />IT System Infrastructure<br/> Microsoft Power BI, Data Virtualisaion</p>
+          </div>
+          <div class="details-container">
+            <img 
+              src="./assets/education.png" 
+              alt="Education icon" 
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>Master in ICT<br /> IT Specialist in Paython<br /> MCSE|MCITP|MCAS</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p> 
+            With over 16 years of global experience in crafting
+            personalised IT solutions, I have developed a deep 
+            understanding of the unique challenges organisations face 
+            in today’s fast-paced digital environment.
+            As a trusted expert, I design and implement customised 
+            technology strategies that align seamlessly with business
+            goals, enhancing efficiency, reducing costs, and driving
+            measurable results. By leveraging advanced IT 
+            infrastructures and staying ahead of industry trends, 
+            I empower organisations to transform operations, 
+            embrace innovation,and achieve sustainable growth with precision and impact.
+          </p></div>
+      </div>
+    </div>
+    <img 
+      src="./assets/arrow.png"
+      alt="Arrow icon" 
+      class="icon arrow" 
+      onclick="location.href='./#experience'"
+    />
+  </section>
+  <!-- Experience Section-->
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">ITC System Solution</h2>
+          <div class="article-container"></div>
+            <article>
+              <img 
+                src="./assets/checkmark_green.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Python Coding programming</h3>
+                <p>Solution adviser |Solving Problem</p>
+              </div>
+              </article>
+              <article>
+                <img 
+                src="./assets/checkmark_green.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Project Management| Data Analysis</h3>
+                <p>Python | Excell | Power Query | SQL Database </p>
+              </div>
+              </article>
+              <article>
+                <img 
+                 src="./assets/checkmark_green.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS and Cloud Computing</h3>
+                  <p>Impementation | maintainance | configuration</p>
+                </div>
+               </article>
+               <article>
+                <img 
+                  src="./assets/checkmark_green.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Cybersecurity design | implement |defence</h3>
+                  <p>Microsoft Cetifide Solutions</p>
+                </div>
+               </article>
+               <article>
+                <img 
+                  src="./assets/checkmark_green.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Power BI developer</h3>
+                  <p>Power App and Dashboard Report</p>
+                </div>
+               </article>
+               <article>
+                <img 
+                  src="./assets/checkmark_green.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML,CSS,JS,CMS and WordPress Developer</h3>
+                  <p>Experience in Website Develoing</p>
+                </div>
+        </article>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Wintel System Engineer | Data Engineering </h2>
+          <div class="article-container"></div>
+               <article>
+                <img 
+                  src="./assets/checkmark_green.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Networking infrastructures</h3>
+                  <p>implement| Configure| Installation|maintainance</p>
+                </div>
+               </article>
+               <article>
+                <img 
+                  src="./assets/checkmark_green.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL Server</h3>
+                  <p>Administrator| Power Query | SQL Database </p>
+                </div>
+               </article>
+               <article>
+                <img 
+                  src="./assets/checkmark_green.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Hardware A+</h3>
+                  <p>Data Recovery | Building</p>
+                </div>
+               </article>
+               <article>
+                <img 
+                  src="./assets/checkmark_green.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Network Security switching</h3>
+                  <p>Cisco Switching Router|Bridge Configuration</p>
+                </div>
+               </article>
+               <article>
+                <img 
+                  src="./assets/checkmark_green.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+              </article>
+        </div>
+      </div>
+    </div>
+    <img 
+      src="./assets/arrow.png"
+      alt="Arrow icon" 
+      class="icon arrow" 
+      onclick="location.href='./#projects'"
+    />
+  </section>
+  <script src="script.js"></script>
+ </body>
+</html>
