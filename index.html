@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA_Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Reza Kochesfehani Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Reza Kochesfehani</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./assets/Screenshot 2025-01-19 141808.png"
+          alt="Reza Nejad profile picture"
+        />
+      </div>
+      <div class="section__text">
+            <p class="section__text__p1">Hello,I'm ' </p>
+            <h1 class="title">Reza Kochesfehani</h1>
+            <p class="section__text__p2">ICT System Engineer</p> 
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2"
+                onclick="window.open('./assets/Reza_Nejad_ CV update.pdf')"
+                >
+                Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+                </button>
+            </div>
+            <div id="socials.container">
+                <img src="./assets/Linkedin_icon.jpg" alt="My LinkedIn profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/richard-nejad-0263492a'">
+                <img src="./assets/github_icon.png" alt="My LinkedIn profile"
+                class="icon" onclick="location.href='https://reza-nejad1975.github.io/portfolio/'">
+                <img src="./assets/Mic_icon_certificate.png" alt="My LinkedIn profile"
+                class="icon" onclick="location.href='https://learn.microsoft.com/en-us/users/rezanejad-5436/transcript/7xoo1uzwq5o4k69'">
+            </div>
+      </div>
+    </section>
+    <!-- About Section
+ 
+
+
+
+-->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/reza-pic1.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h2>Experience</h2>
+              <p>
+                <h6>16+ years </h6><br />IT System Infrastructure<br />
+                Microsoft Power BI, Data Virtualisaion
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h2>Education</h2>
+              <p>
+               <h6> Master in ICT <br />University Of the Sunshine Coast </h6><br />
+                IT Specialist in Paython<br />
+                MCSE|MCITP|MCAS
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              With over 16 years of global experience in crafting personalised
+              IT solutions, I have developed a deep understanding of the unique
+              challenges organisations face in today’s fast-paced digital
+              environment. As a trusted expert, I design and implement
+              customised technology strategies that align seamlessly with
+              business goals, enhancing efficiency, reducing costs, and driving
+              measurable results. By leveraging advanced IT infrastructures and
+              staying ahead of industry trends, I empower organisations to
+              transform operations, embrace innovation,and achieve sustainable
+              growth with precision and impact.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <!-- Experience Section-->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Work Experience
+      <br/>           
+          <img src="./assets/Cyber.png" alt="" class="icon">
+          <img src="./assets/html.png" alt="" class="icon">
+          <img src="./assets/Jupiter_logo_images.jpg" alt="" class="icon">
+          <img src="./assets/pm.png" alt="" class="icon">
+          <img src="./assets/python.png" alt="" class="icon">
+          <img src="./assets/linuxos.png" alt="" class="icon">
+          <img src="./assets/PowerBi.png" alt="" class="icon">
+          <img src="./assets/Mic_icon_certificate.png" alt="" class="icon">
+          <img src="./assets/sql.png" alt="" class="icon">
+        </h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <p class="experience-sub-title">ICT System Engineer</p>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark_green.png" alt="experience icon" class="icon">
+                <div>
+                  <h5>Paython Coding</h5>
+                  
+                  <b>IT Specialist Certified<br/> Solutions Adviser<br/> Jupiter</b>
+                </div>
+                <img src="./assets/python.png" alt="itemes icon" class="icon">
+              </article>
+              <article>
+                <img src="./assets/checkmark_green.png" alt="experience icon" class="icon">
+                <div>
+                  <h5>Data Analysis</h5>
+                  <b>SQL Database <br/>Power Query|<br/> Python<br/>Excel Dataset</b>
+                  <img src="./assets/sql.png" alt="dataanalysis itemes" class="icon">
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark_green.png" alt="experience icon" class="icon">
+                <div>
+                  <h5>IT Solutions</h5>
+                  <b>Infrastructure<br />Implementation<br />Solutions<br/>CRM</b>
+                </div>
+                <img src="./assets/Jupiter_logo_images.jpg" alt="it items" class="icon">
+              </article>
+              <article>
+                <img src="./assets/checkmark_green.png" alt="experience icon" class="icon">
+                <div>
+                  <h5>Website Desing and Developing</h5>
+                  <img src="./assets/html.png" alt="html icon" class="icon">
+                  <b> HTML<br /> CSS<br/>Java Script<br/> CMS, WordPress</b>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark_green.png" alt="experience icon" class="icon">
+                <div>
+                  <h5>Power Platform</h5>
+                  <b>Automation|Dashboard Report|Power APP</b>
+                  <img src="./assets/PowerBi.png" alt="powerplatform icon" class="icon">
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark_green.png" alt="experience icon" class="icon">
+                <div>
+                  <h5>Project Managements</h5>
+                  <img src="./assets/pm.png" alt="pm icon" class="icon">
+                  <b>Mileston|Microsoft PM</b>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <p class="experience-sub-title">Wintel System Engineer</p>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark_green.png" alt="experience icon" class="icon">
+                <div>
+                  <h5>Microsoft Network Infrastructures</h5>
+                  <b>IT Engenireer Specialist | Coding</b>
+                  <img src="./assets/Mic_icon_certificate.png" alt="microsoft itemes" class="icon">
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark_green.png" alt="experience icon" class="icon">
+                <div>
+                  <h5>Cybersecurity| design | Defence</h5>
+                  <b>Cyber Zone| Secure environment</b>
+                  <img src="./assets/Cyber.png" alt="cyber itemes" class="icon">
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark_green.png" alt="experience icon" class="icon">
+                <div>
+                  <h5>Hardware A+</h5>
+                  <b>Data Recovery| Building | Switching</b>
+                  <img src="./assets/hardware.png" alt="hardware itemes" class="icon">
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark_green.png" alt="experience icon" class="icon">
+                <div>
+                  <h5>Virtualisation|Networking</h5>
+                  <b>Infrastructure | implement | solutions</b>
+                  <img src="./assets/dataAnalysis.png" alt="vm itemes" class="icon">
+                </div>
+              </article>
+            <div>
+          </div>
+        </div>
+    <img 
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+   />
+  </section>
+  <!-- Projects Section-->
+  <section id="projects">
+    <p class="section__text__p1">My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/Project1.png" alt="Project1" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title"><h3>Python Project</h3></h2>
+        <div class="btn-container">
+          <button 
+           class="btn btn-color-2 project-btn"
+           onclick="location.href=''">
+          Github
+          </button>
+          <button
+           class="btn btn-color-2 project-btn"
+           onclick="location.href='https://reza-nejad1975.github.io/certificats/'">
+          <h5>Work Certificate</h5>
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/Project2.png" alt="Project1" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title"><h4>Power BI Dashboard Project</h4></h2>
+        <div class="btn-container">
+          <button 
+           class="btn btn-color-2 project-btn"
+           onclick="location.href='https://reza-nejad1975.github.io/Projects-Details/'">
+          Github
+          </button>
+          <button
+           class="btn btn-color-2 project-btn"
+           onclick="location.href='https://reza-nejad1975.github.io/Projects/'">
+          <h5>Work Certificate</h5>
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project3.png" alt="Project1" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title"><h3>One of Website Project</h3></h2>
+        <div class="btn-container">
+          <button 
+           class="btn btn-color-2 project-btn"
+           onclick="location.href='https://reza-nejad1975.github.io/Projects-Details/'">
+          Github
+          </button>
+          <button
+           class="btn btn-color-2 project-btn"
+           onclick="location.href='https://reza-nejad1975.github.io/Kathleen-McArthur/'">
+          <h5>Work Certificate</h5>
+          </button>
+        </div>
+      </div>
+     </div>
+    </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contant'"
+      />
+  </section>
+  <script src="script.js"></script>
+  </body>
+</html>
